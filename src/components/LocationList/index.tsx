@@ -29,8 +29,8 @@ const LocationList: FC<Props> = ({selectedProv, navigation, userProvId}) => {
   return (
     <>
       {isLoading.fetchKota && (
-        <Dialog>
-          <Dialog.Loading />
+        <Dialog overlayStyle={styles.overlayStyle}>
+          <Dialog.Loading loadingProps={styles.loadingProps} />
         </Dialog>
       )}
       <FlatList

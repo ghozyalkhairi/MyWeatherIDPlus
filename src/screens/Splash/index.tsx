@@ -76,7 +76,7 @@ const Splash: FC<NativeStackScreenProps<RootStackParamList, 'Splash'>> = ({
         <Text style={styles.gold}>+</Text>
       </Text>
 
-      <Text style={styles.version}>v0.0.5</Text>
+      <Text style={styles.version}>v0.0.8</Text>
 
       <Text style={styles.subtitle}>
         Cek cuaca di sekitar anda dengan mudah

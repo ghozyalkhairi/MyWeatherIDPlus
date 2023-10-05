@@ -77,8 +77,8 @@ const LocationItem: FC<Props> = ({
   return (
     <>
       {isLoading.fetchCuaca && (
-        <Dialog>
-          <Dialog.Loading />
+        <Dialog overlayStyle={styles.overlayStyle}>
+          <Dialog.Loading loadingProps={styles.loadingProps} />
         </Dialog>
       )}
 
